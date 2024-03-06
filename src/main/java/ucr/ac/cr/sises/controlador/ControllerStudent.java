@@ -43,7 +43,7 @@ public class ControllerStudent implements ActionListener, MouseListener{
     @Override
     public void actionPerformed(ActionEvent e) {
         switch (e.getActionCommand().toString()) {
-            case "add":
+            case "add":  // faltan las validaciones de los campos
                 this.student=this.panelStudent.getStudent();
                 FrmStudent.message(this.registerStudent.add(student));
                 this.panelStudent.loadCarnet(this.registerStudent.getComboCarnet());

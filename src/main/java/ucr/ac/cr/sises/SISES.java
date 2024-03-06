@@ -13,6 +13,6 @@ import ucr.ac.cr.sises.controlador.ControllerStudent;
 public class SISES {
 
     public static void main(String[] args) {
-        new ControllerStudent();
+        new ControllerStudent();// esto es elprincipal
     }
 }
